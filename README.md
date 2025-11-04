@@ -1,6 +1,6 @@
 # Cartoon_Images
-### This project was teeny tiny attempt to generate cartoon face images from real images using encoder-decoder architecture.
-
+This project was teeny tiny attempt to generate cartoon face images from real images using encoder-decoder architecture.
+#### Try this [Demo App](https://huggingface.co/spaces/Akshay-2211/face-cartoonizer)
 ## About the dataset
 - We took 20k real images and toonified it using a commercially available tool which gave satisfactory results.
 - The datset required cleaning as some images were not up to the standards and some required appropriate cropping.
@@ -13,7 +13,7 @@
 <img width="256" height="256" alt="yusuf_pathan_aug_3 (1)" src="https://github.com/user-attachments/assets/9244c467-dd64-4b4d-82f7-1a2f6ab24e53" />
 
 ## About the model
-- We trained a simple encoder-decoder model using GPU on the above dataset.
+- We trained a simple encoder-decoder model using skip connections.
 - The model started showing good results even at early epochs.
 - Here is a growth sample after 400 epochs.
 
